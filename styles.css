@@ -18,7 +18,7 @@ body {
 #clock, #countdown {
   width: 50%;
   float: left;
-  font-size: 56px;
+  font-size: 36px;
   font-weight: bold;
   text-align: center;
 }
