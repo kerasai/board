@@ -34,7 +34,6 @@ body {
 .board > * {
   border-radius: 10px;
   border: 3px solid #333;
-  min-height: 400px;
   flex: auto;
   margin: 1em;
 }
@@ -53,7 +52,13 @@ body {
   width: 144px;
   border-radius: 10px;
   border: 1px solid #333;
-  margin: 16px auto;
+  margin: 16px;
+}
+
+.board .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .board .item {
