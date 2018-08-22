@@ -12,12 +12,11 @@ var config = {
     clockEl = $('#clock');
     countdownEl = $('#countdown');
 
-    // Draggable.
-    // var containers = $('.dropzone').get();
-    // var droppable = new Draggable.Droppable(containers, {
-    //   draggable: '.item',
-    //   dropzone: '.dropzone'
-    // });
+    var containers = $('.dropzone').get();
+    var droppable = new Draggable.Droppable(containers, {
+      draggable: '.item',
+      dropzone: '.dropzone'
+    });
 
 
     setTimes();
