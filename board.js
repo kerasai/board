@@ -14,7 +14,7 @@ var config = {
 
     // Draggable.
     var containers = $('.dropzone').get();
-    const droppable = new Draggable.Droppable(containers, {
+    var droppable = new Draggable.Droppable(containers, {
       draggable: '.item',
       dropzone: '.dropzone'
     });
