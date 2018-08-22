@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Morning Board</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div id="timer" class="clearfix">
+                <div id="clock"></div>
+                <div id="countdown"></div>
+            </div>
+            <div class="board">
+                <div id="todo">
+                    <div class="heading">To Do</div>
+
+                    <div class="dropzone">
+                        <div class="item draggable">
+                            <i class="fas fa-female fa-5x"></i>
+                        </div>
+                    </div>
+
+                    <div class="dropzone">
+                        <div class="item draggable">
+                            <i class="fas fa-shower fa-5x"></i>
+                        </div>
+                    </div>
+
+                    <div class="dropzone">
+                        <div class="item draggable">
+                            <i class="fas fa-utensils fa-5x"></i>
+                        </div>
+                    </div>
+
+                    <div class="dropzone">
+                        <div class="item draggable">
+                            <i class="fas fa-tshirt fa-5x"></i>
+                        </div>
+                    </div>
+
+                    <div class="dropzone">
+                        <div class="item draggable">
+                            <i class="fas fa-tooth fa-5x"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="done">
+                    <div class="heading">Done</div>
+
+                    <div class="dropzone"></div>
+
+                    <div class="dropzone"></div>
+
+                    <div class="dropzone"></div>
+
+                    <div class="dropzone"></div>
+
+                    <div class="dropzone"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.6/lib/draggable.bundle.js"></script>
+        <script src="board.js"></script>
+    </body>
+</html>
