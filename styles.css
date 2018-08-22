@@ -18,7 +18,7 @@ body {
 #clock, #countdown {
   width: 50%;
   float: left;
-  font-size: 36px;
+  font-size: 56px;
   font-weight: bold;
   text-align: center;
 }
@@ -49,8 +49,8 @@ body {
 }
 
 .board .dropzone {
-  height: 128px;
-  width: 128px;
+  height: 144px;
+  width: 144px;
   border-radius: 10px;
   border: 1px solid #333;
   margin: 16px auto;
@@ -61,8 +61,8 @@ body {
   border: 1px solid #333;
   padding: 16px 0;
   box-shadow: 3px 3px 5px 6px #ccc;
-  height: 64px;
-  width: 92px;
+  height: 80px;
+  width: 108px;
   text-align: center;
   margin: 16px;
 }
