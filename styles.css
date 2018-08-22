@@ -49,8 +49,8 @@ body {
 }
 
 .board .dropzone {
-  height: 144px;
-  width: 144px;
+  height: 128px;
+  width: 128px;
   border-radius: 10px;
   border: 1px solid #333;
   margin: 16px auto;
@@ -61,8 +61,8 @@ body {
   border: 1px solid #333;
   padding: 16px 0;
   box-shadow: 3px 3px 5px 6px #ccc;
-  height: 80px;
-  width: 108px;
+  height: 64px;
+  width: 92px;
   text-align: center;
   margin: 16px;
 }
